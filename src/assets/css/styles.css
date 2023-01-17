@@ -1,0 +1,71 @@
+/* Header */
+
+.nav-bar, ul {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    justify-content: space-around;
+}
+
+.center-header{
+    display: flex;
+    align-items: center;
+}
+
+.logo-app {
+    width: 30%;
+}
+
+ul {
+    gap: 4rem;
+}
+
+.slider-big {
+    color: #ffff;
+    background-color: rgb(41, 207, 152);
+    padding: 2rem;
+}
+
+.sidebar-item {
+    padding: 2rem;
+    background-color: rgb(225, 250, 215);
+    margin: 2rem 0;
+}
+
+.btn {
+    width: 50%;
+    margin-top: 1rem;
+    padding: .8rem;
+    font-size: 1.5rem;
+    color: #ffff;
+    background-color: black;
+    text-align: center;
+}
+
+.btn-succes {
+    background-color: rgb(78, 190, 78) ;
+}
+
+.btn-white{
+    color: #ffff;
+    padding: .5rem;
+    border: solid .3rem #ffff;
+}
+
+aside {
+    width: 30%;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input-search {
+    width: 80%;
+}
