@@ -6,20 +6,13 @@
                 <strong>My APP</strong> Vue
             </span>
         </div>
-
         <nav>
             <ul>
                 <li>
-                    <a href="#">Inicio</a>
+                    <router-link to="/home">Inicio</router-link>
                 </li>
                 <li>
-                    <a href="#">Nosotros</a>
-                </li>
-                <li>
-                    <a href="#">Reservas</a>
-                </li>
-                <li>
-                    <a href="#">Ustedes</a>
+                    <router-link to="/about">Nosotros</router-link>
                 </li>
             </ul>
         </nav>

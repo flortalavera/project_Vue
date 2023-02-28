@@ -1,8 +1,13 @@
 <template>
   <HeaderComponent></HeaderComponent>
   <MainSlider></MainSlider>
-  <SidebarHome></SidebarHome>
-  <FooterComponent></FooterComponent>
+  <div class="grid">
+    <RouterView></RouterView>
+    <SidebarHome></SidebarHome>
+  </div>
+  <div>
+    <FooterComponent></FooterComponent>
+  </div>
 </template>
 
 <script>

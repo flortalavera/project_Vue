@@ -2,7 +2,7 @@
     <footer id="footer">
         <div class="center">
             <p>
-                &copy; Master en Frameworks Course
+                &copy; Master in Frameworks Course
             </p>
         </div>
     </footer>

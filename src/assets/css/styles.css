@@ -52,10 +52,6 @@ ul {
     border: solid .3rem #ffff;
 }
 
-aside {
-    width: 30%;
-}
-
 h3 {
     font-size: 2rem;
 }
@@ -68,4 +64,12 @@ form {
 
 .input-search {
     width: 80%;
+}
+
+/* center content */
+
+.grid{
+    display: grid;
+    grid-template-areas: '1 2';
+    justify-items: end;
 }
